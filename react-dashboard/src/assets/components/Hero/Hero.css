@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  max-width: 70vw;
+  position: relative;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 320px;
+}
+
+.card {
+  padding: 20px;
+  width: 250px;
+  height: 300px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right top,
+    #d16b78,
+    #da87a0,
+    #dea4c1,
+    #e2c0dc,
+    #e9dcef,
+    #e9dcf4,
+    #e9dcf9,
+    #e7dcff,
+    #dac0ff,
+    #d1a3ff,
+    #cb84ff,
+    #c75ffb
+  );
+  color: #333;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title p {
+  font-size: 22px;
+  color: #000;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+}
+
+.card-avg h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #000;
+}
